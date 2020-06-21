@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Header />
+      <main className="App-main">
+        <h1>DeployAR</h1>
+        <h3>comunidad argentina</h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat animi architecto quia quis sit vero et amet excepturi ipsum! Ullam quae tempora, facilis optio officia nemo ducimus porro rerum?
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </main>
+      <Footer />
     </div>
   );
 }
 
-export default App;

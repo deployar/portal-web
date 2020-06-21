@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 20px;
+  border-bottom: 1px solid var(--blur-color);
+  width: 98%;
+}
+
+.nav {
+  width: 18vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo span {
+  color: var(--primary-color);
+  font-size: 1.2em;
+  font-weight: 500;
+}
