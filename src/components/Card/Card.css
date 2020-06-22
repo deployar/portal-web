@@ -26,6 +26,10 @@
 	justify-content: center;
 }
 
+.description-container p {
+	font-size: 24px;
+}
+
 .discord {
 	border-top: 5px solid #8c9eff;
 	grid-row-start: 1;
