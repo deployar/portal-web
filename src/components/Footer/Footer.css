@@ -1,19 +1,29 @@
 footer {
-  width: 98%;
-  border-top: 1px solid var(--blur-color);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 10vh;
-  padding: 20px;
+	width: 98%;
+	border-top: 1px solid var(--blur-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 12vh;
+	padding: 20px;
+	animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+	0% {
+		transform: translate(0, 70px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
 }
 
 .links {
-  width: 18vw;
-  display: flex;
-  justify-content: space-around;
+	width: 18vw;
+	display: flex;
+	justify-content: space-around;
 }
 
 .copy {
-  color: var(--primary-color);
+	color: var(--primary-color);
 }

@@ -9,8 +9,8 @@ export default function Header() {
         <span >DeployAR</span>
       </div>
       <nav className="nav">
-        <a href='https://www.google.com/'>Roadmaps</a>
-        <a href='https://www.google.com/'>FAQ</a>
+        <a href='#'>Roadmaps</a>
+        <a href='#'>FAQ</a>
       </nav>
     </header>
   );

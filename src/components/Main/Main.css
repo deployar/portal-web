@@ -1,0 +1,28 @@
+main {
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70vw;
+	font-size: calc(10px + 2vmin);
+	color: var(--primary-color);
+}
+
+main h1 {
+	font-size: 3em;
+	margin-bottom: 7px;
+}
+
+main h3 {
+	margin-top: 0;
+	font-weight: 400;
+}
+
+.comunidades {
+	margin: 40px;
+	padding: 10px;
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 30px 1fr;
+}

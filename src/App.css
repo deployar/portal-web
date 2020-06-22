@@ -5,22 +5,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.App-main {
-  min-height: 90vh;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70vw;
-  font-size: calc(10px + 2vmin);
-  color: var(--primary-color);
-}
-.App-main h1 {
-  margin-bottom: 7px;
-}
-
-.App-main h3 {
-  margin-top: 0;
-  font-weight: 400;
-}
