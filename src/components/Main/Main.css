@@ -26,3 +26,18 @@ main h3 {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 30px 1fr;
 }
+
+@media only screen and (max-width: 600px) {
+	.comunidades {
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+	}
+	main {
+		width: 90vw;
+	}
+	main p {
+		text-align: center;
+		width: 100%;
+	}
+}

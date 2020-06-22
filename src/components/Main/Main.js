@@ -14,7 +14,7 @@ export default function Main() {
       <h1>DeployAR</h1>
       <h3>Comunidad argentina</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat animi architecto quia quis sit vero et amet excepturi ipsum! Ullam quae tempora, facilis optio officia nemo ducimus porro <rerum></rerum>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat animi architecto quia quis sit vero et amet excepturi ipsum! Ullam quae tempora, facilis optio officia nemo ducimus porro
       </p>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
