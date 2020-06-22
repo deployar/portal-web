@@ -58,4 +58,10 @@
 	.card {
 		margin: 20px;
 	}
+	.icon {
+		height: 80px;
+	}
+	.card h3 {
+		font-size: 1.2em;
+	}
 }
