@@ -75,7 +75,10 @@
 	.icon {
 		height: 60px;
 	}
-	.card h3 {
+	.description-title h3 {
+		font-size: 1.3em;
+	}
+	.description-container p {
 		font-size: 1.1em;
 	}
 }
