@@ -29,14 +29,14 @@ export default function Main() {
           color='telegram'
         />
         <Card
-          href='https://t.me/joinchat/K923HlbTWN1hQGcJzhjeSg'
+          href='https://t.me/joinchat/K923Hkylvp82u8j-MtR96Q'
           title='Discord'
           src={discord}
           alt='Discord icon'
           color='discord'
         />
         <Card
-          href='https://t.me/joinchat/K923HlbTWN1hQGcJzhjeSg'
+          href='https://www.facebook.com/groups/2678480395495734'
           title='Facebook'
           src={facebook}
           alt='Facebook icon'
