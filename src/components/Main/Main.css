@@ -3,9 +3,12 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 70vw;
+	width: 100%;
 	font-size: calc(10px + 2vmin);
 	color: var(--primary-color);
+}
+main p {
+	width: 70%;
 }
 
 main h1 {
@@ -19,12 +22,16 @@ main h3 {
 }
 
 .comunidades {
-	margin: 40px;
+	width: 100%;
+	margin: 20px;
 	padding: 10px;
 	display: grid;
-	grid-gap: 40px;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 30px 1fr;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -34,7 +41,7 @@ main h3 {
 		margin: 10px;
 	}
 	main {
-		width: 90vw;
+		width: 100%;
 	}
 	main p {
 		text-align: center;

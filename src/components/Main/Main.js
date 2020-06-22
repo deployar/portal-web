@@ -1,8 +1,8 @@
 import React from 'react';
 
-import telegram from '../../assets/telegram.png'
-import discord from '../../assets/discord.png'
-import facebook from '../../assets/facebook.png'
+import telegram from '../../assets/telegram-color.png'
+import discord from '../../assets/discord-color.png'
+import facebook from '../../assets/facebook-color.png'
 
 import './Main.css';
 
@@ -23,21 +23,21 @@ export default function Main() {
       <div className='comunidades'>
         <Card
           href='https://t.me/joinchat/K923HlbTWN1hQGcJzhjeSg'
-          title='Telegram Empleos'
+          title='Empleos'
           src={telegram}
           alt='Telegram icon'
           color='telegram'
         />
         <Card
           href='https://t.me/joinchat/K923HlbTWN1hQGcJzhjeSg'
-          title='Comunidad Discord'
+          title='Discord'
           src={discord}
           alt='Discord icon'
           color='discord'
         />
         <Card
           href='https://t.me/joinchat/K923HlbTWN1hQGcJzhjeSg'
-          title='Comunidad Facebook'
+          title='Facebook'
           src={facebook}
           alt='Facebook icon'
           color='facebook'

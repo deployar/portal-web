@@ -9,7 +9,7 @@ export default function Footer() {
         <a href='https://github.com/deployar'>Github</a>
       </div>
       <div className="copy">
-        <span>Copyrigth 2020</span>
+        <span>copyright 2020</span>
       </div>
     </footer>
   );
