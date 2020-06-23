@@ -34,23 +34,14 @@
 
 .discord {
 	border-top: 5px solid #8c9eff;
-	grid-row-start: 1;
-	grid-column-start: 2;
-	grid-column-end: 4;
 }
 
 .telegram {
 	border-top: 5px solid #139bd0;
-	grid-row-start: 2;
-	grid-column-start: 1;
-	grid-column-end: 3;
 }
 
 .facebook {
 	border-top: 5px solid #3b5998;
-	grid-row-start: 2;
-	grid-column-start: 3;
-	grid-column-end: 5;
 }
 
 .icon {
@@ -60,15 +51,15 @@
 @media only screen and (max-width: 600px) {
 	.card {
 		width: 90%;
-		height: 180px;
-		margin: 15px;
+		min-height: 50px;
+		max-height: 200px;
+		margin: 20px;
 		padding: 10px;
 		align-items: center;
-		overflow: hidden;
 	}
 
 	.card h3 {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 
 	.container {
@@ -78,15 +69,15 @@
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.container p {
 		margin: 0;
 		width: 100%;
 	}
 
 	.icon {
-		height: 50px;
-		position: relative;
-		margin-top: -145px;
+		height: 60px;
+		margin-top: -185px;
 	}
 }
 
