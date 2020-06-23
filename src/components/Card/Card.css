@@ -1,6 +1,6 @@
 .card {
-	width: 80%;
-	height: 200px;
+	width: 30%;
+	height: 180px;
 	border-radius: 2px 2px 10px 10px;
 	background-color: var(--secondary-color);
 	box-shadow: 0 1px 6px var(--blur-color);
@@ -10,6 +10,7 @@
 	justify-content: space-between;
 	animation: fadeIn 1.5s ease-in-out;
 	padding: 10px;
+	margin: 15px;
 }
 
 .card h3 {
@@ -26,6 +27,9 @@
 	align-items: center;
 	justify-content: space-between;
 	font-size: 24px;
+}
+.container p {
+	margin: 0;
 }
 
 .discord {
@@ -50,20 +54,21 @@
 }
 
 .icon {
-	height: 100px;
+	height: 80px;
 }
 
 @media only screen and (max-width: 600px) {
 	.card {
 		width: 90%;
-		height: auto;
+		height: 180px;
 		margin: 15px;
 		padding: 10px;
 		align-items: center;
+		overflow: hidden;
 	}
 
 	.card h3 {
-		padding: 15px;
+		margin-top: 40px;
 	}
 
 	.container {
@@ -75,14 +80,13 @@
 	}
 	.container p {
 		margin: 0;
-		margin-top: 40px;
 		width: 100%;
 	}
 
 	.icon {
 		height: 50px;
-		margin: 10px;
-		margin-top: -105px;
+		position: relative;
+		margin-top: -145px;
 	}
 }
 
