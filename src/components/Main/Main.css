@@ -7,7 +7,7 @@ main {
 	color: var(--primary-color);
 }
 main p {
-	width: 70%;
+	width: 60%;
 	font-size: 24px;
 	text-align: center;
 }
@@ -24,13 +24,11 @@ main h3 {
 }
 
 .comunidades {
+	box-sizing: border-box;
 	width: 100%;
 	margin: 10px;
 	padding: 10px;
 	display: flex;
-	/* grid-gap: 15px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr; */
 	align-items: center;
 	justify-content: center;
 	justify-items: center;

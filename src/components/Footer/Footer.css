@@ -7,21 +7,23 @@ footer {
 	height: 12vh;
 	padding: 20px;
 	animation: fadeInUp 1.5s ease-in-out;
-}
-
-@keyframes fadeInUp {
-	0% {
-		transform: translate(0, 70px);
-	}
-	100% {
-		transform: translate(0, 0);
-	}
+	box-sizing: border-box;
 }
 
 .links {
-	width: 18vw;
+	width: 14%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links img {
+	width: 40px;
+	height: 40px;
+}
+
+.links img:hover {
+	transform: scale(1.1);
 }
 
 .copy {
@@ -31,5 +33,14 @@ footer {
 @media only screen and (max-width: 600px) {
 	.links {
 		width: 40vw;
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		transform: translate(0, 70px);
+	}
+	100% {
+		transform: translate(0, 0);
 	}
 }

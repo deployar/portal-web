@@ -1,8 +1,8 @@
 import React from 'react';
 
-import telegram from '../../assets/telegram-color.png'
-import discord from '../../assets/discord-color.png'
-import facebook from '../../assets/facebook-color.png'
+import telegram from '../../assets/telegram.png'
+import discord from '../../assets/discord.png'
+
 
 import './Main.css';
 
@@ -14,11 +14,11 @@ export default function Main() {
       <h1>DeployAR</h1>
       <h3>Comunidad argentina</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat animi architecto quia quis sit vero et amet excepturi ipsum! Ullam quae tempora, facilis optio officia nemo ducimus porro
+        Somos una comunidad en continuo crecimiento, retroalimentándonos mutuamente, intentando generar cada día una mejor plataforma colaborativa para nuevos talentos y cualquier seniority.
       </p>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        </p>
+        ¡Unite a nuestras plataformas!
+      </p>
 
       <div className='comunidades'>
         <Card
@@ -27,6 +27,8 @@ export default function Main() {
           src={telegram}
           alt='Telegram icon'
           color='telegram'
+          text1='Encontrá tu próxima oportunidad laboral'
+        //text2='Compartí búsquedas'
         />
         <Card
           href='https://t.me/joinchat/K923Hkylvp82u8j-MtR96Q'
@@ -34,14 +36,10 @@ export default function Main() {
           src={discord}
           alt='Discord icon'
           color='discord'
+          text1=' ¡Vení a hablar con la comunidad! '
+        //text2='Charlas sobre el mundo IT '
         />
-        <Card
-          href='https://www.facebook.com/groups/2678480395495734'
-          title='Facebook'
-          src={facebook}
-          alt='Facebook icon'
-          color='facebook'
-        />
+
       </div>
     </main>
 

@@ -4,9 +4,10 @@
 	text-align: center;
 	justify-content: space-between;
 	height: 12vh;
-	padding: 20px;
 	border-bottom: 1px solid var(--blur-color);
 	width: 98%;
+	padding: 20px;
+	box-sizing: border-box;
 	animation: fadeInDown 1.5s ease-in-out;
 }
 
