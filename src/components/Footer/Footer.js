@@ -10,16 +10,16 @@ export default function Footer() {
     <footer >
       <div className='links'>
         <a href='https://github.com/deployar'>
-          <img src={github} alt="" />
+          <img src={github} alt="github link" />
         </a>
-        <a href='https://github.com/deployar'>
-          <img src={twitter} alt="" />
+        <a href='https://twitter.com/GoDeployAr?s=20'>
+          <img src={twitter} alt="twitter link" />
         </a>
-        <a href='https://github.com/deployar'>
-          <img src={facebook} alt="" />
+        <a href='https://www.facebook.com/groups/deployar'>
+          <img src={facebook} alt="facebook link" />
         </a>
         <a href='mailto:gotodeployar@gmail.com'>
-          <img src={mail} alt="" />
+          <img src={mail} alt="mail link" />
         </a>
       </div>
       <div className="copy">
