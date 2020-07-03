@@ -7,6 +7,7 @@ import discord from '../../assets/discord.png'
 import './Main.css';
 
 import Card from '../Card/Card'
+import Countdown from '../Countdown/Countdown';
 
 export default function Main() {
   return (
@@ -40,7 +41,11 @@ export default function Main() {
         //text2='Charlas sobre el mundo IT '
         />
 
+
       </div>
+      <Countdown
+        timeTillDate="08 01 2020, 0:00 am"
+        timeFormat="MM DD YYYY, h:mm a" />
     </main>
 
 
