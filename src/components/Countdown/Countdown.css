@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin: 40px;
 }
 
 .countdown-item {
@@ -48,8 +48,5 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
-    margin: auto;
-  }
-  .countdown-item {
   }
 }

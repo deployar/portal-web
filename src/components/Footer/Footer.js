@@ -4,11 +4,15 @@ import github from '../../assets/github.png'
 import mail from '../../assets/mail.png'
 import twitter from '../../assets/twitter.png'
 import facebook from '../../assets/facebook.png'
+import instagram from '../../assets/instagram.png'
 
 export default function Footer() {
   return (
     <footer >
       <div className='links'>
+        <a href='https://www.instagram.com/godeployar'>
+          <img src={instagram} alt="instagram link" />
+        </a>
         <a href='https://github.com/deployar'>
           <img src={github} alt="github link" />
         </a>

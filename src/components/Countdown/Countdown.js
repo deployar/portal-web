@@ -47,34 +47,34 @@ class Countdown extends React.Component {
 
     return (
       <div className='countdown'>
-        <h2>Discord Time !</h2>
+        <h2>Pasate a discord !</h2>
         <div className="countdown-wrapper">
           {days && (
             <div className="countdown-item">
               <SVGCircle radius={daysRadius} />
               {days}
-              <span>days</span>
+              <span>días</span>
             </div>
           )}
           {hours && (
             <div className="countdown-item">
               <SVGCircle radius={hoursRadius} />
               {hours}
-              <span>hours</span>
+              <span>horas</span>
             </div>
           )}
           {minutes && (
             <div className="countdown-item">
               <SVGCircle radius={minutesRadius} />
               {minutes}
-              <span>minutes</span>
+              <span>minutos</span>
             </div>
           )}
           {seconds && (
             <div className="countdown-item">
               <SVGCircle radius={secondsRadius} />
               {seconds}
-              <span>seconds</span>
+              <span>segundos</span>
             </div>
           )}
         </div>

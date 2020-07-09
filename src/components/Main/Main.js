@@ -32,7 +32,7 @@ export default function Main() {
         //text2='Compartí búsquedas'
         />
         <Card
-          href='https://t.me/joinchat/K923Hkylvp82u8j-MtR96Q'
+          href='https://discord.gg/Sd96cV'
           title='Discord'
           src={discord}
           alt='Discord icon'
@@ -44,7 +44,7 @@ export default function Main() {
 
       </div>
       <Countdown
-        timeTillDate="08 01 2020, 0:00 am"
+        timeTillDate="08 09 2020, 0:00 am"
         timeFormat="MM DD YYYY, h:mm a" />
     </main>
 

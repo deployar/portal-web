@@ -34,6 +34,10 @@ footer {
 	.links {
 		width: 40vw;
 	}
+	.links img {
+		width: 35px;
+		height: 35px;
+	}
 }
 
 @keyframes fadeInUp {
