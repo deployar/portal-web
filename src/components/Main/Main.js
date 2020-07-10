@@ -32,7 +32,7 @@ export default function Main() {
         //text2='Compartí búsquedas'
         />
         <Card
-          href='https://discord.gg/Sd96cV'
+          href='https://discord.gg/wCj64fb'
           title='Discord'
           src={discord}
           alt='Discord icon'
