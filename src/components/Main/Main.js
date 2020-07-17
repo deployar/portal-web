@@ -44,7 +44,7 @@ export default function Main() {
 
       </div>
       <Countdown
-        timeTillDate="08 09 2020, 0:00 am"
+        timeTillDate="07 31 2020, 11:59 pm"
         timeFormat="MM DD YYYY, h:mm a" />
     </main>
 
