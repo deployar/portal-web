@@ -2,7 +2,6 @@ import React from 'react';
 import telegram from '../../assets/telegram.png'
 import discord from '../../assets/discord.png'
 import Card from '../Card/Card'
-import Countdown from '../Countdown/Countdown';
 import './Main.css';
 
 export default function Main() {
@@ -39,9 +38,7 @@ export default function Main() {
 
 
       </div>
-      <Countdown
-        timeTillDate="07 31 2020, 2:59 am"
-        timeFormat="MM DD YYYY, h:mm a" />
+      
     </main>
 
 
