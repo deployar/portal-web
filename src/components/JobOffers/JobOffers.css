@@ -1,0 +1,56 @@
+.job-offers {
+	padding: 30px 20px 50px;
+}
+
+.offer-list {
+	display: grid;
+	gap: 18px;
+	max-width: 850px;
+	width: 100%;
+}
+
+.offer-card {
+	background-color: var(--secondary-color);
+	border-left: 4px solid #139bd0;
+	border-radius: 4px;
+	box-shadow: 0 1px 6px var(--blur-color);
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.offer-meta {
+	color: var(--primary-color);
+	display: flex;
+	font-size: 0.9em;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.offer-text {
+	line-height: 1.5;
+	margin: 0 0 15px;
+	overflow-wrap: anywhere;
+	text-align: left;
+	white-space: pre-wrap;
+	width: 100%;
+}
+
+.offer-media {
+	color: var(--blur-color);
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 12px;
+}
+
+.offer-card a {
+	color: #61c7f2;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+	.offer-meta {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 5px;
+	}
+}

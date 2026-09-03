@@ -30,6 +30,10 @@
 	height: 100%;
 	display: flex;
 	align-items: center;
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+	padding: 0;
 }
 
 .logo img {
@@ -42,11 +46,27 @@
 	font-weight: 500;
 }
 
+.nav button {
+	color: var(--primary-color);
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+	font-size: 1.1em;
+	padding: 8px 0;
+}
+
+.nav button:hover,
+.nav button.active {
+	border-bottom-color: #139bd0;
+}
+
 @media only screen and (max-width: 600px) {
 	.nav {
-		width: 40vw;
+		width: auto;
 	}
-	.nav a {
+
+	.nav button {
 		margin: 0 8px;
 	}
 }
